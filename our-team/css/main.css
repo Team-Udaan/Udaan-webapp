@@ -161,9 +161,20 @@ footer.page-footer{
 
 /*Carousel properties begin*/
 
+
+
 .imgcard1{
-    height: 300px;
+    margin-left: 10%;
+    height: 350px;
+    width: 300px;
     background-color: #212121;
+}
+
+.imgcard2{
+    margin-left: 10%;
+    height: 250px;
+    width: 200px;
+    background-color: #212121;   
 }
 
 #ourteam1{
@@ -171,11 +182,10 @@ footer.page-footer{
     font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-top: 25px;
+    margin-top: 40px;
     margin-bottom: 25px;
     color: #fff;
 }
-
 
 .item{
     margin-left:5%;
@@ -207,7 +217,7 @@ footer.page-footer{
 
 #seccaro{
     height: 300px;
-    margin-bottom: 100px;
+   
 }
 
 /*Carousel properties End*/
@@ -293,6 +303,7 @@ footer.page-footer{
    Modify as content requires.
    ========================================================================== */
 
+
 @media only screen and (max-width: 480px) {
     
     /*Login modal's properties begin*/
@@ -329,10 +340,22 @@ footer.page-footer{
         font-size: 22px;
         font-weight: bold;
         text-transform: uppercase;
-        margin-top: 25px;
+        margin-top: 40px;
         margin-bottom: 25px;
     }
     /*Heading text's properties end*/
+
+    /*Carousel's properties begin*/
+
+    .imgcard1{
+        margin-left: 12px;
+    }
+
+    .imgcard2{
+        margin-left: 65px;
+    }
+
+    /*Carousel's properties end*/
 }
 
 
@@ -348,6 +371,7 @@ footer.page-footer{
    Inlined to avoid the additional HTTP request:
    http://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
+
 
 @media print {
     *,

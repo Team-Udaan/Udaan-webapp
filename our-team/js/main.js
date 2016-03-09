@@ -22,14 +22,14 @@ $(document).ready(function(){
 
     var car2=$("#seccaro");
       car2.owlCarousel({
- 	items : 3,
+ 	things : 5,
     itemsCustom : true,
     itemsDesktop : [1199,3],
     itemsDesktopSmall : [980,3],
     itemsTablet: [768,2],
     itemsTabletSmall: false,
     itemsMobile : [479,1],
-      autoPlay: 4000,
+      autoPlay: 5000,
       singleItem:true,
       itemsDesktop: true,
       scrollPerPage:true,
