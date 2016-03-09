@@ -98,6 +98,10 @@ textarea {
               font-family: udaan;
               src: url('../font/TT0406M_0.TTF')format('truetype');
           }
+          *{
+            font-family: udaan;
+          }
+
         body
          {
            font-family:udaan;
@@ -233,6 +237,145 @@ textarea {
           float: right;
 
       }
+      body{
+    background-color: #212121;
+    //background:url(../img/background.jpg) no-repeat center center fixed;
+    /*used image from google image
+    url-"http://cdn.pcwallart.com/images/dark-wallpaper-2.jpg"*/
+    background-size: cover;
+}
+
+/*dept name at top*/
+.deptname{
+  color:#ff5722;
+  font:70px  'Raleway',Arial;
+  letter-spacing:20px;
+  text-align:center;
+  top:40%;
+  transition:all 1s;
+  width:100%;
+}
+.deptname:hover{
+ letter-spacing:0px;
+  background:#616161;
+  color: #fff;
+}
+/*dept name close*/
+.collapsible-body{
+    color:white;
+    text-align: left;
+}
+
+/*events list*/
+.events{
+    text-align: center;
+    opacity: 0.9;
+}
+.collapsible-body{
+    color:white;
+    text-align: left;
+}
+.event1{
+    background-color: rgba(0,51,102,0.6);
+}
+.event2{
+     background-color:rgba(255,153,0,0.6);
+}
+.event3{
+     background-color:rgba(0,204,102,0.6);
+}
+.event4{
+     background-color:rgba(255,51,0,0.6);
+}
+
+#eventcontainer{
+    width: 75%;
+    margin: auto;
+}
+font{
+    font-size: 30px;
+    color: white;
+
+}
+/*event list close
+
+-----------------------------------------------------
+
+id-card cards*/
+
+.grid {
+    position: relative;
+    margin:auto;
+    width: 315px;
+    text-align: right;
+    float: left;
+}
+.grid1 {
+    position: relative;
+    margin:auto;
+    width: 50%;
+    text-align: right;
+    float: none;
+}
+
+.gridimg{
+    width: 250px;
+}
+
+.idcard{
+    font-size: 20px;
+}
+
+figure.effect-marley h2{
+    position: absolute;
+    right: 40px;
+    padding: 10px 10px 10px 10px;
+}
+
+figure.effect-marley h2 {
+    top: 0px;
+    -webkit-transition: -webkit-transform 0.35s;
+    -moz-transition: -moz-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0,20px,0);
+    -moz-transform: translate3d(0,20px,0);
+    transform: translate3d(0,20px,0);
+}
+
+figure.effect-marley:hover h2 {
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+figure.effect-marley h2::after {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: #fff;
+    content: '';
+    -webkit-transform: translate3d(0,40px,0);
+    -moz-transform: translate3d(0,40px,0);
+    transform: translate3d(0,40px,0);
+}
+
+figure.effect-marley h2::after{
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    -moz-transition: opacity 0.35s, -moz-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-marley:hover h2::after{
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+/*id-card cards close*/
+
 
 
 
@@ -358,6 +501,37 @@ textarea {
         color: #fff;
     }
 }
+/*phone*/
+@media only screen and (max-width: 480px) {
+    /* Style adjustments for viewports that meet the condition */
+    .grid{
+        width:90%;
+        float: none;
+        margin: auto;
+    }
+    .grid1{
+        float: none;
+        width:100%;
+        margin: auto;
+    }
+    .deptname{
+        font-size: 85px;
+    }
+}
+/*tablet*/
+@media only screen and (max-width: 1040px) and (min-width: 480px) {
+    /* Style adjustments for viewports that meet the condition */
+    .grid{
+        width:50%;
+        margin: auto;
+    }
+    .grid1{
+        float: none;
+        width:100%;
+        margin: auto;
+    }
+}
+
 
 
 @media print,
