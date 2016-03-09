@@ -1,0 +1,19 @@
+{
+  "name": "Udaan-Webapp",
+  "version": "0.0.1",
+  "description": "A webapp for techfest udaan",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "techfest",
+    "udaan"
+  ],
+  "author": "Arvind",
+  "license": "MIT",
+  "dependencies": {
+    "angular-ui-router": "~0.2.18",
+    "angular": "~1.5.0"
+  }
+}

@@ -1,0 +1,39 @@
+
+        <!-- Modal which opens when User clicks on Login button.. The modal used is :: http://materializecss.com/modals.html.. The css properties reside in css/main.css-->
+       <div id="login" class="modal">
+               <div class="modal-content">
+                 <form class="col s12">
+                   <div id="logininf">LOGIN</div>
+                          <div class="row">
+                            <div class="input-field col s12" id="userpaswd">
+                              <input type="text"  name="id" id="recnumfield" required="" aria-required="true" >
+                              <label for="recnumfield" data-error="wrong" data-success="right">Enter Reciept Number!!</label>
+                            </div>
+                              <div class="input-field col s12" id="userpaswd">
+                                <input type="password"  name="id" id="paswdfield" required="" aria-required="true" >
+                                <label for="paswdfield" data-error="wrong" data-success="right">Enter Password!!</label>
+                              </div>
+                          </div>
+                          <div class="row">
+                            <div class="input-field col s12" id="submitbtn">
+                              <center>
+                                <button class="waves-effect waves-light btn">Submit</button>
+                              </center>
+                            </div>
+                          </div>
+                  </form>
+           </div>
+        </div>
+
+       <!-- modal for login ends -->
+       <script>
+       $(document).ready(function(){
+           // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+
+           //The default actions needed for materialize property usage
+           $('.modal-trigger').leanModal();
+           $(".button-collapse").sideNav();
+
+
+         });
+         </script>
