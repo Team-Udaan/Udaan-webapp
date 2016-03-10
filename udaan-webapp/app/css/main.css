@@ -438,6 +438,10 @@ figure.effect-marley:hover h2::after{
 
 /*Carousel properties End*/
 
+iframe{
+  width: 50%;
+  height: 100%;
+}
 
 
 
@@ -575,6 +579,10 @@ figure.effect-marley:hover h2::after{
     }
 
     /*Carousel's properties end*/
+    iframe{
+      width:50%;
+      height:100%;
+    }
 
 }
 /*phone*/

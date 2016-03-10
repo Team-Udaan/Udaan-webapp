@@ -44,12 +44,16 @@
              	templateUrl: 'app/views/Embeddrones.html'
          	})
 
+
           .state('Team', {
-              url: '/Team',
-              templateUrl: 'app/views/team.html'
+            url: '/Team',
+            templateUrl: 'app/views/team.html'
           })
 
-
+          .state('Createudaan', {
+            url: '/Createudaan',
+            templateUrl: 'app/views/Createudaan.html'
+          })
           $urlRouterProvider.otherwise('/');
 
 
