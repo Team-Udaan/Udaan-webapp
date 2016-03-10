@@ -114,8 +114,8 @@ textarea {
         #gmap_canvas img{max-width:none!important;background:none!important}
 
         #mapcard{
-            width: 330px;
-            padding-left: 15px;
+            width: 300px;
+            padding-left: 8px;
             padding-top: 10px;
             height: 310px;
             background-color: #616161;
@@ -237,7 +237,7 @@ textarea {
           float: right;
 
       }
-      body{
+body{
     background-color: #212121;
     //background:url(../img/background.jpg) no-repeat center center fixed;
     /*used image from google image
