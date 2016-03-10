@@ -44,6 +44,12 @@
              	templateUrl: 'app/views/Embeddrones.html'
          	})
 
+          .state('Team', {
+              url: '/Team',
+              templateUrl: 'app/views/team.html'
+          })
+
+
           $urlRouterProvider.otherwise('/');
 
 

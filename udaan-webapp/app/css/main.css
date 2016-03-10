@@ -376,6 +376,70 @@ figure.effect-marley:hover h2::after{
 
 /*id-card cards close*/
 
+/*Carousel properties begin*/
+
+
+
+.imgcard1{
+    margin-left: 30%;
+    height: 350px;
+    width: 300px;
+    background-color: #212121;
+}
+
+.imgcard2{
+    margin-left: 38%;
+    height: 250px;
+    width: 200px;
+    background-color: #212121;
+}
+
+#ourteam1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.item{
+    margin-left:5%;
+    margin-right: 5%;
+}
+
+.caroimg{
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.caroimg:hover{
+    width: 100%;
+    height: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+    -webkit-transition: all .5s ease;
+     -moz-transition: all .5s ease;
+       -o-transition: all .5s ease;
+      -ms-transition: all .5s ease;
+          transition: all .5s ease;
+}
+
+.owl-pagination{
+    display: none;
+}
+
+#seccaro{
+    height: 300px;
+}
+
+/*Carousel properties End*/
+
+
+
 
 
 
@@ -500,6 +564,18 @@ figure.effect-marley:hover h2::after{
     .side-nav a{
         color: #fff;
     }
+    /*Carousel's properties begin*/
+
+    .imgcard1{
+        margin-left: 12px;
+    }
+
+    .imgcard2{
+        margin-left: 65px;
+    }
+
+    /*Carousel's properties end*/
+
 }
 /*phone*/
 @media only screen and (max-width: 480px) {

@@ -1,0 +1,178 @@
+<!-- Carousel for Team members start -->
+        <div id="ourteam1">
+            Our Team
+        </div>
+        <div id="firstcaro" style="align:center;">
+
+        <div class="item">
+            <div class="card imgcard1" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard1" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard1" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard1" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard1" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard1" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard1" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard1" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard1" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard1" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard1" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard1" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard1" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard1" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard1" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard1" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+        </div>
+
+        <!-- Carousel 1 ends -->
+
+
+        <!-- Second Carousel begins -->
+
+         <div id="ourteam1">
+            Our Team
+        </div>
+        <div id="seccaro">
+
+        <div class="item">
+            <div class="card imgcard2" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard2" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard2" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard2" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard2" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard2" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard2" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard2" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard2" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard2" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard2" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard2" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard2" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+        <div class="item">
+            <div class="card imgcard2" ><img src="app/img/test1.jpg" class="caroimg"></div>
+        </div>
+
+    </div>
+<script>
+$(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+
+    //The default actions needed for materialize property usage
+    $('.modal-trigger').leanModal();
+    $(".button-collapse").sideNav();
+    var car1=$("#firstcaro");
+      car1.owlCarousel({
+ 	items : 1,
+    itemsCustom : true,
+    itemsDesktop : [1199,1],
+    itemsDesktopSmall : [980,1],
+    itemsTablet: [768,],
+    itemsTabletSmall: false,
+    itemsMobile : [479,1],
+      autoPlay: 4000,
+      singleItem:true,
+      itemsDesktop: true,
+      scrollPerPage:true,
+      paginationSpeed : 1800,
+  	});
+
+    var car2=$("#seccaro");
+      car2.owlCarousel({
+ 	things : 1,
+    itemsCustom : true,
+    itemsDesktop : [1199,3],
+    itemsDesktopSmall : [980,3],
+    itemsTablet: [768,2],
+    itemsTabletSmall: false,
+    itemsMobile : [479,1],
+      autoPlay: 5000,
+      singleItem:true,
+      itemsDesktop: true,
+      scrollPerPage:true,
+      paginationSpeed : 1800,
+  	});
+  });
+</script>
